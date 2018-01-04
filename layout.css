@@ -1,0 +1,20 @@
+header.main-header {
+    position: fixed;
+    top: 0;
+    height: 300px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+div.gap {
+    height: 300px;
+}
+
+section.anchored::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -300px; 
+    height: 300px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
